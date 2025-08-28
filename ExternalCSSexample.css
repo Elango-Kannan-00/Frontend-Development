@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>
+            External CSS
+        </title>
+        <link rel = "stylesheet" href ="ex.css">
+    </head>
+    <body>
+        <p>This is an example for External CSS</p>
+    </body>
+</html>
+
+<!--Create an file named ex with extension .css with following content-->
+body{
+background-color:blue;
+}
