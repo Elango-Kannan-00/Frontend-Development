@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            LINK EXAMPLE
+        </title>
+        <style>
+            /*a:link {*/
+            /*    color: green;*/
+            /*}*/
+            /*a:visited {*/
+            /*    color: pink;*/
+            /*}*/
+            /*a:hover {*/
+            /*    color: red;*/
+            /*}*/
+            /*a:active {*/
+            /*    color: yellow;*/
+            /*}*/
+            a:link, a:visited {
+              background-color: blue;
+              color: white;
+              padding: 15px 25px;
+              text-align: center;
+              text-decoration: none; 
+              display: inline-block; 
+            }
+
+        </style>
+    </head>
+    <body>
+        <a href = "https://www.youtube.com/">YoutTube - Absolute URL</a><br>
+        <a href = "D:\Web development">Local file - Relative URL</a><br>
+        <a href = "https://www.youtube.com/" target="_blank">Target - New Window</a><br>
+        <a href = "https://www.youtube.com/" target="_self">Target - Same Window</a><br>
+        <a href = "https://www.youtube.com/" target="_blank"><img src="https://imgs.search.brave.com/45fKC7XzpEUNge2kJNy7uz43J38IfdkJIkPNxXWu1P4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jYW50/by13cC1tZWRpYS5z/My5hbWF6b25hd3Mu/Y29tL2FwcC91cGxv/YWRzLzIwMTkvMDEv/MTkxOTM4MzEvaHRt/bC1kb2N1bWVudC1m/aWxlLTE0LmpwZw" style="width: 100px; height: 100px"></a><br>
+        <a href = "elango.kiot@gmail.com">Mail to EK</a>
+    </body>
+</html>
