@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            INLINE CSS EXAMPLE
+        </title>
+    </head>
+    <body style="background-color: black; margin: 300px 300px 400px 360px; text-align: center; padding: 20px; border: 1px dotted white">
+        <i>
+        <h3 style="color: blue">White and Black filled with water</h3>
+        <h3 style="color: yellow">Hoping ! Future will be better</h3>
+        <h3 style="color: red">It's not about the matter</h3>
+        <h3 style="color: green">Sometimes, anything will be bitter</h3>
+        <h3 style="color: white">Maybe, it is a very good batter</h3>
+        <h3 style="color: darkblue">That leads to a new setter</h3>
+        </i>
+    </body>
+</html>
