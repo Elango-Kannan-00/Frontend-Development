@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Examples Combined</title>
+
+  <!-- Import Sofia font with effects -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline|emboss|shadow-multiple">
+
+  <style>
+    body {
+      text-align: center;
+      margin: 30px;
+      background: #f5f5f5;
+    }
+
+    /* Long way (individual properties) */
+    .long-way {
+      font-style: italic;
+      font-variant: small-caps;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 1.5;
+      font-family: "Times New Roman", serif;
+    }
+
+    /* Shorthand way (all in one line) */
+    .shorthand {
+      font: italic small-caps bold 20px/1.5 "Times New Roman", serif;
+    }
+
+    /* For heading fonts */
+    h1 {
+      font-family: "Sofia", cursive;
+      font-size: 40px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Font Properties Example</h2>
+  <p class="long-way">This text is styled using individual font properties.</p>
+  <p class="shorthand">This text is styled using the font shorthand property.</p>
+
+  <h2>Google Font Effects Example</h2>
+  <h1 class="font-effect-fire">🔥 Sofia Font with Fire Effect</h1>
+  <h1 class="font-effect-neon">💡 Sofia Font with Neon Effect</h1>
+  <h1 class="font-effect-outline">✏️ Sofia Font with Outline Effect</h1>
+  <h1 class="font-effect-emboss">⛰️ Sofia Font with Emboss Effect</h1>
+  <h1 class="font-effect-shadow-multiple">🌟 Sofia Font with Multiple Shadows</h1>
+
+</body>
+</html>
