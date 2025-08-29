@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            TEXT DECORATION EXAMPLE
+        </title>
+        <style>
+        #first{
+            text-align-last: center;
+            text-decoration-line: overline underline;
+            
+        }
+        .second{
+            text-decoration-line: overline underline;
+            text-align: center;
+            text-decoration-color: red;
+            text-decoration-style: dotted;
+            text-decoration-thickness: 10px;
+            letter-spacing: 10px;
+            white-space: nowrap;
+        }
+    </style>
+    </head>
+    <body>
+        <p id = "first">Elango Kannan</p>
+        <p class = "second">Learning is a descipline for SUCCESS.</p>
+    </body>
+</html>
